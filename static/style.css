@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+#navbar ul li{
+    margin: 5px 25px;
+    padding: 6px 25px;
+    list-style: none;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 15rem;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+#batchImages{
+    height: 400px;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: inline-grid;
+    
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    width: 28%;
+    border:2px solid black;
+    border-radius: 15px;
+    margin: 2.5rem 1rem;
+}
+
+#quality{
+    height: 600px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.image3 img{
+    height: 150px;
+    width: 150px;
+}
+.qbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 110px;
+    width: 98%;
+    border:2px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border-radius: 1.5rem;
+    margin: 0.9rem 0.8rem;
+}
+#low{
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    text-align: end;
+    justify-content: end;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px 2px;
+    margin: 2px auto;
+}
+#form input{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    width: 80%;
+}
+.btn{
+    display: flex;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    cursor: pointer
+}
+#form input[type=button]:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}

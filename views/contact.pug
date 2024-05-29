@@ -1,0 +1,11 @@
+extends base.pug
+
+block content
+    form(action= "/post", method= "post", id = "form")
+        input(type="text", name="Name" placeholder="FULL Name" )
+        input(type="tel", name="phonenumber" placeholder="Phone Number" )
+        input(type="mail", name="mail" placeholder="E-mail ID" )
+        input(type="number", name="age" placeholder="age" )
+        div.btn
+            input( type="button", value="Submit" placeholder="submit")
+            input( type="button", value="Reset" placeholder="submit")
